@@ -23,7 +23,7 @@
     "require": {
         "php": ">=7.2",
         "ext-json": "*",
-        "cebe/php-openapi": "^1.6",
+        "cebe/php-openapi": "dev-php-81-compat",
         "league/uri": "^6.3",
         "psr/cache": "^1.0 || ^2.0 || ^3.0",
         "psr/http-message": "^1.0",
@@ -43,6 +43,12 @@
         "phpunit/phpunit": "^7 || ^8 || ^9",
         "symfony/cache": "^5.1"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/onmoon/php-openapi"
+        }
+    ],
     "config": {
         "sort-packages": true
     },
